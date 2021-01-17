@@ -1,0 +1,114 @@
+{
+    "id": "/subscriptions/b4202fc8-1ef5-4ba4-bdd0-4a7908e282e6/resourcegroups/reg/providers/Microsoft.ContainerService/managedClusters/cluster1/detectors/appdev",
+    "name": "appdev",
+    "type": "Microsoft.ContainerService/managedClusters/detectors",
+    "location": "northeurope",
+    "properties": {
+     "dataProvidersMetadata": null,
+     "dataset": [
+      {
+       "renderingProperties": {
+        "description": null,
+        "title": null,
+        "type": 7
+       },
+       "table": {
+        "columns": [
+         {
+          "columnName": "Status",
+          "columnType": null,
+          "dataType": "String"
+         },
+         {
+          "columnName": "Message",
+          "columnType": null,
+          "dataType": "String"
+         },
+         {
+          "columnName": "Data.Name",
+          "columnType": null,
+          "dataType": "String"
+         },
+         {
+          "columnName": "Data.Value",
+          "columnType": null,
+          "dataType": "String"
+         },
+         {
+          "columnName": "Expanded",
+          "columnType": null,
+          "dataType": "String"
+         },
+         {
+          "columnName": "Solutions",
+          "columnType": null,
+          "dataType": "String"
+         }
+        ],
+        "rows": [
+         [
+          "Success",
+          "Our analysis did not find any issues in this category. Please click for recommended next steps.",
+          "Recommended Documents",
+          "Recommended Documents details",
+          "False",
+          "null"
+         ],
+         [
+            "Info",
+            "Info details",
+            "Recommended Documents",
+            "Recommended Documents details",
+            "False",
+            "null"
+        ],
+         [
+            "Warning",
+            "Warning details",
+            "Recommended Documents",
+            "Recommended Documents details",
+            "False",
+            "null"
+        ],
+        [
+           "Critical",
+           "Critical details",
+           "Recommended Documents",
+           "Recommended Documents details",
+           "False",
+           "null"
+       ],
+       [
+          "",
+          "details",
+          "Recommended Documents",
+          "Recommended Documents details",
+          "False",
+          "null"
+      ]
+        ],
+        "tableName": ""
+       }
+      }
+     ],
+     "metadata": {
+      "analysisTypes": [
+       "clusterinsights"
+      ],
+      "author": "",
+      "category": "Customer",
+      "description": "",
+      "id": "appdev",
+      "name": "Application and Development",
+      "score": 0,
+      "supportTopicList": [],
+      "type": "Detector",
+      "typeId": "Diagnostics.ModelsAndUtils.Attributes.Definition, Diagnostics.ModelsAndUtils, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+     },
+     "status": {
+      "message": null,
+      "statusId": 3
+     },
+     "suggestedUtterances": null
+    }
+   }
